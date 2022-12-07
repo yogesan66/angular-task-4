@@ -1,0 +1,17 @@
+<div>
+  <label>User name</label><br>
+  <input type="text"  [(ngModel)]="user_name">
+
+  <br>
+
+  <label>User Age</label><br>
+  <input type="number" [(ngModel)]="age">
+  
+  <br><br>
+
+  <button (click)="onclick()">Set data from Model to View</button>
+  <br>
+  
+  <p>Name:{{user_name}} </p><p>Age:{{age}}</p>
+
+</div>

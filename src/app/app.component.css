@@ -1,0 +1,39 @@
+
+p {
+  font-family: Lato;
+  display: inline-block;
+  padding:5px 5px  0px 5px ;
+}
+label{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small;
+}
+input[type="text"],input[type="number"]{
+   margin:7px 0px;
+   width:97%;
+}
+div{
+  border:1.3px solid rgb(201, 14, 201);
+  border-radius:5px;
+  padding:12px 12px 0px 12px;
+}
+input[type="text"]:focus,input[type="number"]:focus{
+   border:1px solid rgb(5, 99, 241);
+   outline:none;
+   border-radius:3px;
+   box-shadow:0px 0px 5px 1px powderblue ;
+   height:18px;
+}
+button{
+  color:wheat;
+  border:none;
+  background-color:rgb(153, 51, 201);
+  padding:5px;
+  border-radius:3px;
+  cursor: pointer;
+}
+
+button:active{
+  background-color: rgb(87, 30, 245);
+}
